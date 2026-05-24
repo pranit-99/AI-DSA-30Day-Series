@@ -7,3 +7,4 @@ This repository contains 30 mini projects combining Data Structures & Algorithms
 | Day | Project | DSA Topic | AI/ML Concept |
 |---|---|---|---|
 | 1 | Personal Expense Anomaly Detector | Arrays | Statistical Anomaly Detection |
+| 2 | Stock Price Momentum Predictor | Arrays | Linear Regression |
