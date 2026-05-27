@@ -1,0 +1,16 @@
+error_message,severity
+Database connection failed,HIGH
+Database server unavailable,HIGH
+Database timeout occurred,HIGH
+Memory usage high,MEDIUM
+CPU sage higj,MEDIUM
+API request timeout,MEDIUM
+API  response delayed,MEDIUM
+Authentication failed,LOW
+Invalid password attempt,LOW
+User login failed,LOW
+File not found,LOW
+Permission denied,MEDIUM
+Service unavailable,HIGH
+Application crashed,HIGH
+Disk space low,MEDIUM
