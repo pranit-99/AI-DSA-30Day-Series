@@ -1,9 +1,19 @@
-__pycache__/
-*.pyc
-.env
-.venv/
-venv/
+# Mac
+.DS_Store
+
+# Node.js
 node_modules/
 dist/
 build/
-.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
