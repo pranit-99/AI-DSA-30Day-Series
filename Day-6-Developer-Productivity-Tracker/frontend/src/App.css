@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: linear-gradient(135deg, #eaf2ff, #f8fbff);
+  color: #132238;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.dashboard {
+  min-height: calc(100vh - 48px);
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 24px;
+}
+
+.profile-panel,
+.analytics-panel {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 28px;
+  box-shadow: 0 24px 60px rgba(31, 61, 114, 0.14);
+}
+
+.profile-panel {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.avatar-card {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(180deg, #f4f8ff, #ffffff);
+  border: 1px solid #dce8f5;
+  border-radius: 24px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 14px;
+  border-radius: 50%;
+  background: #dbeafe;
+  padding: 12px;
+}
+
+.avatar-card h1 {
+  margin: 8px 0;
+  font-size: 28px;
+  color: #102a43;
+}
+
+.avatar-card p {
+  color: #62748e;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.input-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 22px;
+  border-radius: 22px;
+  background: #f8fbff;
+  border: 1px solid #dce8f5;
+}
+
+label {
+  font-weight: 800;
+  color: #243b53;
+  font-size: 14px;
+}
+
+input {
+  padding: 15px;
+  border: 1px solid #d8e2ef;
+  border-radius: 14px;
+  font-size: 15px;
+  outline: none;
+  background: white;
+}
+
+input:focus {
+  border-color: #2f80ed;
+  box-shadow: 0 0 0 3px rgba(47, 128, 237, 0.12);
+}
+
+button {
+  margin-top: 10px;
+  padding: 16px;
+  border: none;
+  border-radius: 16px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.analytics-panel {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 26px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #102a43, #1d4ed8);
+  color: white;
+}
+
+.tag {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.hero-card h2 {
+  margin: 16px 0 8px;
+  font-size: 34px;
+}
+
+.hero-card p {
+  margin: 0;
+  max-width: 650px;
+  color: #dbeafe;
+  line-height: 1.6;
+}
+
+.level-box {
+  min-width: 150px;
+  padding: 22px;
+  border-radius: 22px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.level-box span {
+  display: block;
+  color: #bfdbfe;
+  font-weight: 700;
+}
+
+.level-box strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 32px;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.metric-card,
+.score-card,
+.prediction-card,
+.suggestion-card,
+.concept-card {
+  background: #f8fbff;
+  border: 1px solid #dce8f5;
+  border-radius: 22px;
+  padding: 22px;
+}
+
+.metric-card span {
+  color: #62748e;
+  font-weight: 800;
+}
+
+.metric-card h3 {
+  margin: 12px 0 8px;
+  font-size: 42px;
+  color: #102a43;
+}
+
+.metric-card p {
+  margin: 0;
+  color: #2f80ed;
+  font-weight: 800;
+}
+
+.result-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.score-card h2,
+.prediction-card h2,
+.suggestion-card h2,
+.concept-card h2 {
+  margin-top: 0;
+  color: #102a43;
+}
+
+.score-circle {
+  width: 150px;
+  height: 150px;
+  margin: 18px auto;
+  border-radius: 50%;
+  background: #dbeafe;
+  color: #1d4ed8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  font-weight: 900;
+  border: 10px solid #eff6ff;
+}
+
+.score-card p,
+.prediction-card p,
+.suggestion-card p {
+  color: #62748e;
+  line-height: 1.6;
+}
+
+.prediction-card h1 {
+  margin: 20px 0;
+  font-size: 74px;
+  color: #2563eb;
+}
+
+.suggestion-card p {
+  font-size: 18px;
+  color: #334e68;
+}
+
+.concept-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.concept-list span {
+  padding: 12px 16px;
+  background: white;
+  border: 1px solid #d8e2ef;
+  border-radius: 999px;
+  font-weight: 800;
+  color: #243b53;
+}
+
+@media (max-width: 1100px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 700px) {
+  .app {
+    padding: 14px;
+  }
+
+  .dashboard {
+    min-height: auto;
+  }
+
+  .metrics-grid,
+  .result-row {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-card h2 {
+    font-size: 26px;
+  }
+
+  .prediction-card h1 {
+    font-size: 52px;
+  }
+}
