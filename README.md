@@ -10,3 +10,6 @@ This repository contains 30 mini projects combining Data Structures & Algorithms
 | 2 | Stock Price Momentum Predictor | Arrays | Linear Regression |
 | 3 | Resume Role Match Engine project | Strings/HashMap | NLP Text Preprocessing/Tokenization |
 | 4 | Smart Log File Error Analyzer project | Arrays/HashMap | Logistic Regression |
+| 5 | AI Code Complexity Analyzer | Arrays/HashMap | Linear Regression |
+| 6 | Developer Productivity Tracker | Arrays/HashMap | Linear Regression |
+| 7 | Smart Log File Error Analyzer project | Object Oriented Programming | Linear Regression |
