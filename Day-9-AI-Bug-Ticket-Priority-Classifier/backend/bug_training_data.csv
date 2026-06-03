@@ -1,0 +1,84 @@
+description,priority
+Application crashes during payment processing,Critical
+Payment gateway fails after clicking submit,Critical
+Checkout crashes after user confirms payment,Critical
+Database corruption detected after update,Critical
+Security vulnerability found in login module,Critical
+User data loss after profile update,Critical
+Server crashes when uploading large file,Critical
+Checkout transaction failed due to system crash,Critical
+Application shuts down during checkout,Critical
+System outage affects all users,Critical
+Critical API service is down,Critical
+Production database is unavailable,Critical
+Payment service stops responding,Critical
+Order processing crashes in production,Critical
+Sensitive user data exposed in logs,Critical
+Authentication bypass vulnerability detected,Critical
+Account balance data is missing,Critical
+Transaction rollback causes data loss,Critical
+Server returns fatal error during payment,Critical
+Application terminates unexpectedly during order placement,Critical
+
+Users are unable to login after password reset,High
+Login page shows invalid error,High
+API returns 500 error for user dashboard,High
+Password reset email is not working,High
+User cannot access account after signup,High
+Authentication token expired unexpectedly,High
+Form submission fails with backend error,High
+User profile update fails,High
+Email verification link is broken,High
+Account creation fails for new users,High
+Search API returns server error,High
+File upload fails for valid documents,High
+User session expires immediately after login,High
+Backend validation error blocks checkout,High
+Dashboard API throws internal server error,High
+Notification API is not sending alerts,High
+Reports cannot be downloaded,High
+User cannot reset password,High
+Admin panel throws permission error,High
+Order status update fails,High
+
+Dashboard takes more than 10 seconds to load,Medium
+Search results are loading slowly,Medium
+Report generation has performance delay,Medium
+Page response time is very slow,Medium
+Notification delivery is delayed,Medium
+Application freezes for few seconds,Medium
+Large table takes time to render,Medium
+Product listing page loads slowly,Medium
+API response time is higher than expected,Medium
+Chart rendering takes too much time,Medium
+Export process is delayed,Medium
+Search autocomplete is slow,Medium
+Image upload takes longer than expected,Medium
+Dashboard widgets refresh slowly,Medium
+Filter results take time to appear,Medium
+Mobile app becomes slow after login,Medium
+Reports page freezes temporarily,Medium
+System performance drops during peak hours,Medium
+Slow response while opening settings page,Medium
+Data synchronization is delayed,Medium
+
+Submit button is slightly misaligned on mobile screen,Low
+Button color is not matching design,Low
+Text spacing issue on settings page,Low
+Minor typo in welcome message,Low
+Icon size looks inconsistent,Low
+Footer alignment issue on homepage,Low
+Dropdown style is not consistent,Low
+Label text is slightly misaligned,Low
+Tooltip position is incorrect,Low
+Placeholder text has spelling mistake,Low
+Logo size looks small on tablet,Low
+Dark mode color contrast needs adjustment,Low
+Header padding is inconsistent,Low
+Card border radius does not match design,Low
+Text overflow issue in sidebar,Low
+Small spacing issue between buttons,Low
+Incorrect font weight on title,Low
+Modal close icon alignment issue,Low
+Minor UI flicker on hover,Low
+Success message text needs formatting,Low
