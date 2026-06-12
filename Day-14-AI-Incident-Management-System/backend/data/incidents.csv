@@ -1,0 +1,81 @@
+description,category
+Database connection timeout,Database Failure
+Database service stopped,Database Failure
+Unable to connect to MySQL,Database Failure
+Query execution taking too long,Database Failure
+Database crashed after deployment,Database Failure
+Server unreachable,Network Failure
+Packet loss detected,Network Failure
+VPN connection dropped,Network Failure
+Gateway timeout issue,Network Failure
+Network latency increased,Network Failure
+Suspicious login detected,Security Incident
+Multiple failed login attempts,Security Incident
+Brute force attack detected,Security Incident
+Unauthorized access attempt,Security Incident
+Malware detected on server,Security Incident
+API returning 500 error,Application Error
+Frontend application crashed,Application Error
+Login page not loading,Application Error
+Payment service exception,Application Error
+Null pointer exception in application,Application Error
+Database disk space full,Database Failure
+Database replication failed,Database Failure
+Deadlock detected in database,Database Failure
+Unable to establish database session,Database Failure
+Database backup failed,Database Failure
+Database authentication error,Database Failure
+Connection pool exhausted,Database Failure
+Stored procedure execution failed,Database Failure
+Database index corruption detected,Database Failure
+Database memory allocation issue,Database Failure
+DNS resolution failed,Network Failure
+Load balancer not responding,Network Failure
+Network switch failure detected,Network Failure
+Firewall blocking traffic,Network Failure
+Connection reset by peer,Network Failure
+Internet connectivity lost,Network Failure
+Bandwidth utilization exceeded threshold,Network Failure
+Router configuration error,Network Failure
+TCP handshake failed,Network Failure
+Network interface down,Network Failure
+Ransomware activity detected,Security Incident
+Privilege escalation attempt identified,Security Incident
+Data breach suspected,Security Incident
+Phishing email reported,Security Incident
+SQL injection attack detected,Security Incident
+Cross-site scripting attack identified,Security Incident
+Unusual account activity observed,Security Incident
+Sensitive file access violation,Security Incident
+Security certificate compromised,Security Incident
+Endpoint protection alert triggered,Security Incident
+Application startup failure,Application Error
+Microservice unavailable,Application Error
+Session timeout issue,Application Error
+File upload functionality broken,Application Error
+Email notification service failed,Application Error
+Configuration error in application,Application Error
+Application dependency missing,Application Error
+Unexpected application shutdown,Application Error
+Cache service unavailable,Application Error
+User registration process failed,Application Error
+Database migration failed,Database Failure
+Database transaction rollback error,Database Failure
+Primary database node unavailable,Database Failure
+Database lock contention detected,Database Failure
+Database schema validation failed,Database Failure
+DHCP server not responding,Network Failure
+SSL handshake failure,Network Failure
+Proxy server unavailable,Network Failure
+Network route not found,Network Failure
+Wireless access point disconnected,Network Failure
+Credential stuffing attack detected,Security Incident
+Account takeover attempt identified,Security Incident
+Abnormal outbound traffic detected,Security Incident
+Security policy violation reported,Security Incident
+Unauthorized privilege modification detected,Security Incident
+Search functionality returning errors,Application Error
+Application configuration file missing,Application Error
+Background job processing failed,Application Error
+Third-party API integration failure,Application Error
+Application response time exceeded threshold,Application Error
