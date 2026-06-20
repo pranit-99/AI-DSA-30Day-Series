@@ -16,4 +16,4 @@ venv/
 *.log
 
 # VS Code
-.vscode/
+.vscode/Day-17-Credit-Card-Fraud-Detection-Assistant/backend/data/*.csv
